@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- The <head> is not a  part of the page.
     it only contains title and style info -->
@@ -8,33 +9,50 @@
     <meta name="auther" content="armorate">
     <meta name="keywords" content="armorate, first, testing, test, html, website">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- important definition for website look on defferent platforms -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- important definition for website look on defferent platforms -->
     <title>Test Doc</title>
     <style>
-    h1  {color:blue; font-size: 25px;}
-    p   {font-size: 19px;}
-    h2  {font-size: 13px;}
+        * {
+            background-color: rgb(48, 51, 59);
+            color: #ffff;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 19px;
+        }
+
+        h2 {
+            font-size: 13px;
+        }
     </style>
 </head>
-<body style="background-color: rgb(51, 62, 100);">  <!-- body of the page OR actual content (divided in 3 parts- header, main and footer) -->
+
+<body>
+    <!-- body of the page OR actual content (divided in 3 parts- header, main and footer) -->
     <header>
         <nav> <!-- navigation tag -->
             <p id="#top">this is top</p> <!-- id element is used to create identity of a particular tag-->
-            <a href="https://en.wikipedia.org/wiki/Main_Page" > wikipedia today <!-- anchor tag -->
-               <!-- <img width="96" height="34" src="../../images/vicky.jpg" alt="Wikipedia today"/> -->
+            <a href="https://en.wikipedia.org/wiki/Main_Page"> wikipedia today <!-- anchor tag -->
+                <!-- <img width="96" height="34" src="../../images/vicky.jpg" alt="Wikipedia today"/> -->
             </a>
         </nav>
     </header>
     <footer>
-        <ul>    <!-- unordered list -->
-            <li>>eminem</a></li> <!-- list item -->
+        <ul> <!-- unordered list -->
+            <li>eminem</a></li> <!-- list item -->
             <li>snoopdogg</li>
-                <ol type="A">   <!-- ordered list (define type for bullets)-->
-                    <li>still D.R.E.</li>
-                    <li>singh is king</li>
-                </ol>
+            <ol type="A"> <!-- ordered list (define type for bullets)-->
+                <li>still D.R.E.</li>
+                <li>singh is king</li>
+            </ol>
         </ul>
-        <dl>    <!-- description list -->
+        <dl> <!-- description list -->
             <dt>Mango</dt> <!-- description term -->
             <dd>good fruit</dd> <!-- description description -->
             <dt>apple</dt>
@@ -43,4 +61,5 @@
         <a href="#top">back to top</a>
     </footer>
 </body>
+
 </html>
