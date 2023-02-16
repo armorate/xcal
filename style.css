@@ -10,10 +10,14 @@
         }
         .tablehead, .tablerow {
             color: aqua;
+            font-size: 2rem;
             text-align: center;
             text-decoration: solid;
+            padding: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
         }
         table, th, td {
-            border: 2px solid rgb(20, 22, 158);
+            border: 1rem solid rgb(80, 32, 90);
             border-collapse: collapse;
     }
