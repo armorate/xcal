@@ -1,23 +1,30 @@
-        * {
-            background-color: rgb(48, 51, 59);
-            color: #ffff;
-        }
-
-        .a01 {
-            text-decoration: none;
-            background-color: rgb(82, 66, 46);
-            padding: 3px;
-        }
-        .tablehead, .tablerow {
-            color: aqua;
-            font-size: 2rem;
-            text-align: center;
-            text-decoration: solid;
-            padding: 1rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-        }
-        table, th, td {
-            border: 1rem solid rgb(80, 32, 90);
-            border-collapse: collapse;
-    }
+* {
+    background-color: rgb(48, 51, 59);
+    color: #ffff;
+}
+::selection {
+    background-color: palevioletred;
+}
+.a01 {
+    text-decoration: none;
+    background-color: rgba(82, 66, 46, 0.7);
+    padding: 3px;
+}
+.tablehead, .tablerow {
+    color: aqua;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: solid;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+table, th, td {
+    border: 1rem solid rgb(80, 32, 90);
+    border-collapse: collapse;
+}
+strong {
+    background-color: green;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
