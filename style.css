@@ -24,7 +24,7 @@ table, th, td {
     border-collapse: collapse;
 }
 strong {
-    background-color: green;
+    background-color: rgb(28, 163, 28);
     padding-left: 2rem;
     padding-right: 2rem;
 }
